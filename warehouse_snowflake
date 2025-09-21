@@ -1,0 +1,26 @@
+# Création d'un warehouse SNOWFLAKE
+CREATE WAREHOUSE WH_BRICE 
+WITH WAREHOUSE_SIZE = 'XSMALL' 
+AUTO_SUSPEND = 60 
+AUTO_RESUME = TRUE;
+
+# Création de la database dans le warehouse SNOWFLAKE
+CREATE DATABASE DB_BRICE;
+CREATE SCHEMA DB_BRICE.SCHEMA_BRICE;
+
+# Création de la table qui contient les données
+CREATE OR REPLACE TABLE etudiants (
+    id INT,
+    nom STRING,
+    age INT,
+    programme STRING,
+    stress INT,
+    anxiete INT,
+    sommeil INT,
+    bien_etre STRING
+);
+
+
+# NB
+Je n'ai pas le droit de divulguer les données personnelles car elles sont sensibles. Je
+ne peux donc pas les inclure dans ce repository. Contactez-moi si vous voulez que je vous explique le projet
