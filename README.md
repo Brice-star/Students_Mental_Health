@@ -17,3 +17,7 @@ Ce projet explore les indicateurs de santé mentale chez les étudiants universi
 - Python : nettoyage des données collectées
 - Snowflake : stockage cloud, modélisation SQL, requêtage
 - Power BI : visualisation dynamique, mesures DAX, filtres interactif
+
+# NB
+Je n'ai pas le droit de divulguer les données personnelles car elles sont sensibles. Je
+ne peux donc pas les inclure dans ce repository. Contactez-moi si vous voulez que je vous explique le projet
