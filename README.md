@@ -17,7 +17,7 @@ Ce modèle supervisé (classification) atteint une précision de 95 % sur les do
 
   
 🛠️ Technologies utilisées :
-- Python : nettoyage des données collectées
+- Python : nettoyage des données collectées et entrainement du modele
 - Snowflake : stockage cloud, modélisation SQL, requêtage
 - Power BI : visualisation dynamique, mesures DAX, filtres interactif
 
