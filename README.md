@@ -12,6 +12,9 @@ Ce projet explore les indicateurs de santé mentale chez les étudiants universi
 - Visualiser les tendances par programme d’étude, tranche d’âge et indicateurs psychologiques
 - Créer un tableau de bord interactif en DirectQuery avec Power BI
 
+En complément, j’ai intégré un modèle de machine learning simple pour explorer la prédiction du niveau de bien-être étudiant à partir de variables comme le stress, l’anxiété, le sommeil et le programme d’études.
+Ce modèle supervisé (classification) atteint une précision de 95 % sur les données simulées, et illustre comment l’intelligence artificielle peut enrichir une analyse descriptive en apportant une dimension prédictive.
+
   
 🛠️ Technologies utilisées :
 - Python : nettoyage des données collectées
